@@ -1,0 +1,55 @@
+1. Done
+2. Done
+3. Done
+4. Со овие команди направив локален репозиториум.
+   mkdir SI_2023_lab1_213149
+   cd SI_2023_lab1_213149
+   git init
+5.Потоа со следната команда ги поврзав соодветно remote репо и локалниот репо.
+   git remote add origin https://github.com/andonovskijane/SI_2023_lab1_213149.git
+6.Креирав notepad README.md и внатре напишав "Jane Andonovski 213149".
+Со командите додаов README file и направив commit со порака Inital commit
+   git add README.md - 
+   git commit -m "Initial commit"
+7.Повторно креирав SLLab1.java file и со командите го додадов и направив commit со порака Add java class
+   git add SILab1.java
+   git commit -m "Add java class"
+8. Синхронизација направив на сите гранки со оддалечениот репозиториум со 
+   git push origin master
+9.Креиравме нови три гранки со 
+   git branch bug1
+   git branch bug2
+   git branch bug3
+10.git checkout bug1
+11.Ја поправив грешката во for циклусот кој се користи за читање на N-те броеви
+од стандарден влез и ги извршив командите:
+   git add SLab1.java
+   git commit -m "Fix wrong loop for reading"
+12.git checkout bug2
+13.Ја поправив грешката во методот filterOddNumbers и ги извршив командите:
+   git add .
+   git commit -m "Fix wrong condition in filterOddNumbers"
+14.git checkout bug3
+15.Ја поправив грешката во методот sumEvenNumbers и ги извршив командите:
+   git add .
+   git commit -m "Fix method sumEvenNumbers"
+16.git push --all origin
+17.Се префрливме на гранката master
+   git checkout master
+18.Спојувањето на гранката bug1 кон гранката master го извршивме со:
+   git merge bug1(No conflict)
+19.git push --all origin
+20.git merge bug2(No conflict)
+21.git push --all origin
+22.git checkout bug3
+23.git rebase master
+24.git checkout master
+25.git merge bug3(No conflict)
+26.За да ги синхронизираме сите гранки со оддалечениот репо искористивме:
+   git push --all --force origin
+27.Креирам датотека logs.txt и ја додавам, ги копирам досегашните git логови од командата:
+   git logs
+Ја додавам и датотеката 213149.txt и правам:
+   git add *.txt
+   git commit -m "Final commit"
+29. git push --all origins

@@ -1,0 +1,28 @@
+commit 34551315c9a7a10a67c1eb45546fecc7a8d7e66e (HEAD -> master, origin/master, origin/bug3, bug3)
+Author: andonovskijane <130285926+andonovskijane@users.noreply.github.com>
+Date:   Sun Apr 9 20:20:53 2023 +0200
+
+    Fix method sumEvenNumbers
+
+commit cfb151b701d756128ef5afff32a8902c219f3d20
+Merge: 8ef3006 efc0c10
+Author: andonovskijane <130285926+andonovskijane@users.noreply.github.com>
+Date:   Sun Apr 9 20:31:37 2023 +0200
+
+    Merge branch 'bug2'
+
+commit efc0c10a0792e6eb99cf84b1ed38fb7e8d44f6d9 (origin/bug2, bug2)
+Author: andonovskijane <130285926+andonovskijane@users.noreply.github.com>
+Date:   Sun Apr 9 20:17:31 2023 +0200
+
+    Fix wrong condition in filterOddNumbers
+
+commit 8ef30068642fb81dc9e49a601784b5fc7823f805 (origin/bug1, bug1)
+Author: andonovskijane <130285926+andonovskijane@users.noreply.github.com>
+Date:   Sun Apr 9 19:43:35 2023 +0200
+
+    Fix wrong loop for reading
+
+commit 88af3a1d1ca630c1d996501636a8762d54169cd2
+Author: andonovskijane <130285926+andonovskijane@users.noreply.github.com>
+Date:   Sun Apr 9 19:19:30 2023 +0200
